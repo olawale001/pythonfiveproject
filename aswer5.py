@@ -55,7 +55,7 @@ class TranslatorApp:
             self.result.insert(tk.END, result)
 
 def main():
-    api_key_path = "path/to/your/service-account-file.json"
+    api_key_path = ""
     root = tk.Tk()
     translator = Translator(api_key_path)
     app = TranslatorApp(root, translator)
